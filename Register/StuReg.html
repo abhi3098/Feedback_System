@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Student Register</title>
+
+<style>
+body{
+background-image:url(https://cdn.pixabay.com/photo/2017/03/30/10/59/social-networking-2187996_960_720.jpg);
+background-size: 100%;
+}
+center{
+font-family:serif;
+}
+.box{
+width:450px;
+border:3px solid #e5ccff;
+margin-left:32%;
+margin-top:5%;
+padding:20px;
+background-color:#F9F9F9;
+opacity: 0.7;
+border-radius: 25px;
+}
+
+.box p{
+font size: 28%;
+}
+p{
+font size:40%;
+}
+</style>
+
+</head>
+<body>
+<div class="box">
+<form method="post" action="StuReg.php">
+<p>
+<center style="font-size:250%;"><strong>STUDENT REGISTER</strong></center><hr></p>
+<p>NAME</p>
+<input type="text" name="username" placeholder=" Name" required>
+<p>EMAIL</p>
+<input type="text" name="email"placeholder="enter your email " required>
+
+<p> PASSWORD</p>
+<input type="password" name="password" placeholder=" input your password" required>
+<p>CONCTACT NUMBER</p>
+<input type="number" name="contact" placeholder="Number" required>  
+<br>
+<p>GENDER:<br>
+<br><input type="radio" name="gender" value="Male" required>Male &nbsp;<input type="radio" name="gender" value="Female" required>Female</p>
+<br>
+<br>
+<input type="submit" value="Sign up">
+
+</form>
+</div>
+
+</body> 
+</html>

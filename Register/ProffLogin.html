@@ -1,0 +1,61 @@
+<html>
+<head>
+<title> Faculy Register</title>
+
+<style>
+body{
+background-image:url(Image/ae.jpg);
+}
+center{
+font-family:serif;
+}
+.box{
+width:450px;
+border:5px solid black;
+margin-left:20%;
+margin-top:5%;
+padding:10px;
+background-color:#F9F9F9;
+}
+
+.box p{
+font size: 28%;
+}
+p{
+font size:40%;
+}
+
+.box button{
+background:black;
+color:#fff;
+
+}
+</style>
+
+</head>
+<body>
+<div class="box">
+<form method="post" action="proffReg.php">
+<p>
+<center style="font-size:250%;">Faculty Register</center><hr></p>
+<p>NAME</p>
+<input type="text" name="username" placeholder="Name" required>
+<p>Email</p>
+<input type="text" name="email" placeholder="enter your email " required>
+
+<p> PASSWORD</p>
+<input type="password" name="password" placeholder=" input your password" required>
+<p>Contect Number</p>
+<input type="number" name="contact" placeholder="Number" required>  
+<br>
+<p>Gender:<br>
+<br><input type="radio" name="gender" value="Male" required>Male &nbsp;<input type="radio" name="gender" value="Female" required>Female</p>
+<br>
+<br>
+<input type="submit" value="sign up">
+
+</form>
+</div>
+
+</body> 
+</html>
